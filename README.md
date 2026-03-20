@@ -52,40 +52,43 @@ We propose an **AI-powered parametric insurance platform** that:
 ---
 
 ## ⚡ SYSTEM ARCHITECTURE
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                    🔍 DATA INPUT LAYER                       │
-│  Weather APIs | Location Data | Traffic | Platform Signals   │
-└──────────────────────────────────────────────────────────────┘
-                          ↓
-┌──────────────────────────────────────────────────────────────┐
-│                 🤖 AI RISK ENGINE                            │
-│  • Predictive Risk Modeling                                 │
-│  • Weekly Premium Calculation                              │
-│  • Disruption Forecasting                                  │
-└──────────────────────────────────────────────────────────────┘
-                          ↓
-┌──────────────────────────────────────────────────────────────┐
-│              ⚡ PARAMETRIC TRIGGER SYSTEM                    │
-│  • Rain / Heat / AQI Detection                              │
-│  • Auto Claim Initiation                                   │
-└──────────────────────────────────────────────────────────────┘
-                          ↓
-┌──────────────────────────────────────────────────────────────┐
-│              🔍 FRAUD DETECTION LAYER                        │
-│  • GPS Validation                                           │
-│  • Anomaly Detection                                        │
-│  • Duplicate Prevention                                     │
-└──────────────────────────────────────────────────────────────┘
-                          ↓
-┌─────────────────────────────────────────────────────────────┐
-│                 💸 INSTANT PAYOUT SYSTEM                   |
-│  • Razorpay / Stripe Sandbox                                │
-│  • UPI Simulation                                           │
-└─────────────────────────────────────────────────────────────┘
-```
 
----
+### 🔍 DATA INPUT LAYER
+<p>
+  <img src="https://img.shields.io/badge/Weather%20APIs-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Location%20Data-teal?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Traffic-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Platform%20Signals-purple?style=for-the-badge"/>
+</p>
+
+⬇️
+
+### 🤖 AI RISK ENGINE
+- 🧠 Predictive Risk Modeling  
+- 💰 Weekly Premium Calculation  
+- 📊 Disruption Forecasting  
+
+⬇️
+
+### ⚡ PARAMETRIC TRIGGER SYSTEM
+- 🌧️ Rain / Heat / AQI Detection  
+- 🚀 Auto Claim Initiation  
+
+⬇️
+
+### 🔍 FRAUD DETECTION LAYER
+- 📍 GPS Validation  
+- 📊 Anomaly Detection  
+- 🔁 Duplicate Prevention  
+
+⬇️
+
+### 💸 INSTANT PAYOUT SYSTEM
+<p>
+  <img src="https://img.shields.io/badge/Razorpay-008CFF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/UPI-Simulation-success?style=for-the-badge"/>
+</p>
 
 ## ⚡ REAL-TIME CLAIM FLOW
 ```text
