@@ -1,5 +1,7 @@
 # AI-Powered-Insurance-for-India-s-Gig-Economy
 Guidewire DEVTrails 2026
+<img width="1600" height="1131" alt="image" src="https://github.com/user-attachments/assets/597e9715-39b0-4ea1-9495-6edf8c9bfa3d" />
+
 # 🚀 AI-Powered Parametric Insurance for Gig Workers  
 ### 🛡️ Protecting Income. Empowering India’s Workforce.
 
@@ -71,116 +73,59 @@ classDef fraud fill:#16a085,color:#fff,stroke:#0e6655,stroke-width:2px;
 classDef payout fill:#27ae60,color:#fff,stroke:#145a32,stroke-width:2px;
 ```
 ## ⚡ REAL-TIME CLAIM FLOW
-```text
-┌──────────────────────────────────────────────┐
-│ 👤 USER ACTIVE                               │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│ 📡 SYSTEM MONITORING (24/7)                  │
-│   • Tracking weather                         │
-│   • Monitoring location                      │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│ 🌧️ DISRUPTION DETECTED                      │
-│   • Rain / Heat / AQI                        │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│ 🤖 AI VALIDATION                             │
-│   • Risk verification                        │
-│   • Event confirmation                       │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│ 🔍 FRAUD CHECK                               │
-│   • GPS validation                           │
-│   • Anomaly detection                        │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│ 💸 INSTANT PAYOUT                            │
-│   • Auto credit to user                      │
-└──────────────────────────────────────────────┘
-```
 
----
+```mermaid
+flowchart TD
+
+A["👤 USER ACTIVE"]:::user
+B["📡 SYSTEM MONITORING<br/>24/7 Tracking"]:::monitor
+C["🌧️ DISRUPTION DETECTED<br/>Rain / Heat / AQI"]:::trigger
+D["🤖 AI VALIDATION<br/>Event Verification"]:::ai
+E["🔍 FRAUD CHECK<br/>GPS + Anomaly"]:::fraud
+F["💸 INSTANT PAYOUT<br/>Auto Credit"]:::payout
+
+A --> B --> C --> D --> E --> F
+
+classDef user fill:#3498db,color:#fff,stroke:#21618c,stroke-width:2px;
+classDef monitor fill:#5dade2,color:#fff,stroke:#1b4f72,stroke-width:2px;
+classDef trigger fill:#e67e22,color:#fff,stroke:#a04000,stroke-width:2px;
+classDef ai fill:#8e44ad,color:#fff,stroke:#5b2c6f,stroke-width:2px;
+classDef fraud fill:#16a085,color:#fff,stroke:#0e6655,stroke-width:2px;
+classDef payout fill:#27ae60,color:#fff,stroke:#145a32,stroke-width:2px;
+```
 
 ## 💰 WEEKLY PRICING MODEL
 
-```text
-┌──────────────────────────────────────────────┐
-│           📊 INPUT FACTORS                   │
-│  • Location Risk Score                       │
-│  • Weather Forecast                          │
-│  • Historical Disruption Data                │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│           🤖 AI CALCULATION                  │
-│  • Dynamic Premium Engine                    │
-│  • Weekly Risk-Based Pricing                 │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│           💸 FINAL OUTPUT                    │
-│  • ₹20 – ₹50 per week                       │
-│  • Adaptive & Personalized Pricing          │
-└──────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+
+A["📊 INPUT FACTORS<br/>Location | Weather | History"]:::input
+B["🤖 AI PRICING ENGINE<br/>Risk-Based Calculation"]:::ai
+C["💸 WEEKLY PREMIUM OUTPUT<br/>₹20 – ₹50"]:::output
+
+A --> B --> C
+
+classDef input fill:#2980b9,color:#fff,stroke:#1f618d,stroke-width:2px;
+classDef ai fill:#9b59b6,color:#fff,stroke:#6c3483,stroke-width:2px;
+classDef output fill:#27ae60,color:#fff,stroke:#145a32,stroke-width:2px;
 ```
 ## 🛡️ FRAUD DEFENSE SYSTEM
 
-```text
-┌──────────────────────────────────────────────┐
-│ 🛡️ MULTI-LAYER FRAUD PROTECTION SYSTEM      │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│ 📍 LAYER 1: GPS VERIFICATION                │
-│  • Detects spoofed locations                │
-│  • Ensures real-time tracking               │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│ 📊 LAYER 2: BEHAVIOR ANALYSIS               │
-│  • Identifies unusual claim patterns        │
-│  • Tracks abnormal activity                │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│ 🧠 LAYER 3: AI ANOMALY DETECTION            │
-│  • Flags suspicious claims instantly        │
-│  • Learns evolving fraud patterns           │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│ 🔁 LAYER 4: DUPLICATE CLAIM FILTER          │
-│  • Prevents repeated claims                 │
-│  • Cross-verifies claim history             │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│ ⚡ LAYER 5: CIRCUIT BREAKER SYSTEM          │
-│  • Temporarily blocks suspicious zones      │
-│  • Prevents mass fraud attempts             │
-└──────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+
+A["📍 GPS VERIFICATION<br/>Location Validation"]:::layer
+B["📊 BEHAVIOR ANALYSIS<br/>Pattern Detection"]:::layer
+C["🧠 AI ANOMALY DETECTION<br/>Fraud Prediction"]:::ai
+D["🔁 DUPLICATE CHECK<br/>Claim History"]:::layer
+E["⚡ CIRCUIT BREAKER<br/>Zone Freeze"]:::critical
+
+A --> B --> C --> D --> E
+
+classDef layer fill:#16a085,color:#fff,stroke:#0e6655,stroke-width:2px;
+classDef ai fill:#8e44ad,color:#fff,stroke:#5b2c6f,stroke-width:2px;
+classDef critical fill:#c0392b,color:#fff,stroke:#78281f,stroke-width:2px;
 ```
-
----
-
 ## 🚨 PARAMETRIC TRIGGERS
 
 🌧️ Heavy Rainfall  
