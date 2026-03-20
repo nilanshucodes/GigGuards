@@ -1,6 +1,5 @@
-# AI-Powered-Insurance-for-India-s-Gig-Economy
-Guidewire DEVTrails 2026
-<img width="1600" height="1131" alt="image" src="https://github.com/user-attachments/assets/597e9715-39b0-4ea1-9495-6edf8c9bfa3d" />
+
+
 
 #  AI-Powered Parametric Insurance for Gig Workers  
 ###  Protecting Income. Empowering India’s Workforce.
@@ -16,8 +15,8 @@ Guidewire DEVTrails 2026
 </p>
 
 ---
+<img width="1600" height="1131" alt="image" src="https://github.com/user-attachments/assets/597e9715-39b0-4ea1-9495-6edf8c9bfa3d" />
 
-<img width="1600" height="1131" alt="image" src="https://github.com/user-attachments/assets/f1df7ade-742a-479b-beae-e6daeff2fc0c" />
 
 ##  PROBLEM STATEMENT
 
@@ -31,6 +30,7 @@ India’s gig economy is growing rapidly, but delivery partners face **unpredict
  No financial safety net  
 
 ---
+<img width="1600" height="1131" alt="image" src="https://github.com/user-attachments/assets/f1df7ade-742a-479b-beae-e6daeff2fc0c" />
 
 ##  OUR SOLUTION
 
@@ -143,7 +143,7 @@ classDef critical fill:#c0392b,color:#fff,stroke:#78281f,stroke-width:2px;
 
 ```text
 ┌────────────────────────────┬────────────────────────────┐
-│         BEFORE           │           AFTER           │
+│         BEFORE             │           AFTER            │
 ├────────────────────────────┼────────────────────────────┤
 │ No income protection       │ Weekly income security     │
 │ Manual claim process       │ Auto-triggered claims      │
