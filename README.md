@@ -52,3 +52,249 @@ We propose an **AI-powered parametric insurance platform** that:
 ---
 
 ## ⚡ SYSTEM ARCHITECTURE
+```text
+┌──────────────────────────────────────────────────────────────┐
+│                    🔍 DATA INPUT LAYER                       │
+│  Weather APIs | Location Data | Traffic | Platform Signals   │
+└──────────────────────────────────────────────────────────────┘
+                          ↓
+┌──────────────────────────────────────────────────────────────┐
+│                 🤖 AI RISK ENGINE                            │
+│  • Predictive Risk Modeling                                 │
+│  • Weekly Premium Calculation                              │
+│  • Disruption Forecasting                                  │
+└──────────────────────────────────────────────────────────────┘
+                          ↓
+┌──────────────────────────────────────────────────────────────┐
+│              ⚡ PARAMETRIC TRIGGER SYSTEM                    │
+│  • Rain / Heat / AQI Detection                              │
+│  • Auto Claim Initiation                                   │
+└──────────────────────────────────────────────────────────────┘
+                          ↓
+┌──────────────────────────────────────────────────────────────┐
+│              🔍 FRAUD DETECTION LAYER                        │
+│  • GPS Validation                                           │
+│  • Anomaly Detection                                        │
+│  • Duplicate Prevention                                     │
+└──────────────────────────────────────────────────────────────┘
+                          ↓
+┌─────────────────────────────────────────────────────────────┐
+│                 💸 INSTANT PAYOUT SYSTEM                   |
+│  • Razorpay / Stripe Sandbox                                │
+│  • UPI Simulation                                           │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## ⚡ REAL-TIME CLAIM FLOW
+```text
+┌──────────────────────────────────────────────┐
+│ 👤 USER ACTIVE                               │
+└──────────────────────────────────────────────┘
+                     │
+                     ▼
+┌──────────────────────────────────────────────┐
+│ 📡 SYSTEM MONITORING (24/7)                  │
+│   • Tracking weather                         │
+│   • Monitoring location                      │
+└──────────────────────────────────────────────┘
+                     │
+                     ▼
+┌──────────────────────────────────────────────┐
+│ 🌧️ DISRUPTION DETECTED                      │
+│   • Rain / Heat / AQI                        │
+└──────────────────────────────────────────────┘
+                     │
+                     ▼
+┌──────────────────────────────────────────────┐
+│ 🤖 AI VALIDATION                             │
+│   • Risk verification                        │
+│   • Event confirmation                       │
+└──────────────────────────────────────────────┘
+                     │
+                     ▼
+┌──────────────────────────────────────────────┐
+│ 🔍 FRAUD CHECK                               │
+│   • GPS validation                           │
+│   • Anomaly detection                        │
+└──────────────────────────────────────────────┘
+                     │
+                     ▼
+┌──────────────────────────────────────────────┐
+│ 💸 INSTANT PAYOUT                            │
+│   • Auto credit to user                      │
+└──────────────────────────────────────────────┘
+```
+
+---
+
+## 💰 WEEKLY PRICING MODEL
+
+```text
+┌──────────────────────────────────────────────┐
+│           📊 INPUT FACTORS                   │
+│  • Location Risk Score                       │
+│  • Weather Forecast                          │
+│  • Historical Disruption Data                │
+└──────────────────────────────────────────────┘
+                     │
+                     ▼
+┌──────────────────────────────────────────────┐
+│           🤖 AI CALCULATION                  │
+│  • Dynamic Premium Engine                    │
+│  • Weekly Risk-Based Pricing                 │
+└──────────────────────────────────────────────┘
+                     │
+                     ▼
+┌──────────────────────────────────────────────┐
+│           💸 FINAL OUTPUT                    │
+│  • ₹20 – ₹50 per week                       │
+│  • Adaptive & Personalized Pricing          │
+└──────────────────────────────────────────────┘
+```
+## 🛡️ FRAUD DEFENSE SYSTEM
+
+```text
+┌──────────────────────────────────────────────┐
+│ 🛡️ MULTI-LAYER FRAUD PROTECTION SYSTEM      │
+└──────────────────────────────────────────────┘
+                     │
+                     ▼
+┌──────────────────────────────────────────────┐
+│ 📍 LAYER 1: GPS VERIFICATION                │
+│  • Detects spoofed locations                │
+│  • Ensures real-time tracking               │
+└──────────────────────────────────────────────┘
+                     │
+                     ▼
+┌──────────────────────────────────────────────┐
+│ 📊 LAYER 2: BEHAVIOR ANALYSIS               │
+│  • Identifies unusual claim patterns        │
+│  • Tracks abnormal activity                │
+└──────────────────────────────────────────────┘
+                     │
+                     ▼
+┌──────────────────────────────────────────────┐
+│ 🧠 LAYER 3: AI ANOMALY DETECTION            │
+│  • Flags suspicious claims instantly        │
+│  • Learns evolving fraud patterns           │
+└──────────────────────────────────────────────┘
+                     │
+                     ▼
+┌──────────────────────────────────────────────┐
+│ 🔁 LAYER 4: DUPLICATE CLAIM FILTER          │
+│  • Prevents repeated claims                 │
+│  • Cross-verifies claim history             │
+└──────────────────────────────────────────────┘
+                     │
+                     ▼
+┌──────────────────────────────────────────────┐
+│ ⚡ LAYER 5: CIRCUIT BREAKER SYSTEM          │
+│  • Temporarily blocks suspicious zones      │
+│  • Prevents mass fraud attempts             │
+└──────────────────────────────────────────────┘
+```
+
+---
+
+## 🚨 PARAMETRIC TRIGGERS
+
+🌧️ Heavy Rainfall  
+🌡️ Extreme Heat  
+🌫️ Hazardous AQI  
+🚫 Zone Restrictions  
+
+⚡ → **AUTO CLAIM TRIGGERED**
+
+---
+
+## ⚖️ BEFORE vs AFTER
+
+```text
+┌────────────────────────────┬────────────────────────────┐
+│         ❌ BEFORE           │          ✅ AFTER           │
+├────────────────────────────┼────────────────────────────┤
+│ No income protection       │ Weekly income security     │
+│ Manual claim process       │ Auto-triggered claims      │
+│ Delayed payouts            │ Instant payouts            │
+│ High uncertainty           │ Predictable earnings       │
+│ No safety net              │ AI-driven protection       │
+└────────────────────────────┴────────────────────────────┘
+```
+
+---
+
+## 📊 IMPACT
+
+🚴 10M+ Gig Workers  
+📉 30% Income Loss Reduced  
+⚡ <5 sec Claim Processing  
+💸 Instant Relief  
+
+---
+
+## 🧠 AI INTEGRATION
+
+- 📊 Risk Prediction Model  
+- 💰 Dynamic Premium Engine  
+- 🔍 Fraud Detection AI  
+- 📡 Real-time Monitoring  
+
+---
+
+## 🛠️ TECH STACK
+
+**Frontend:** React / Next.js  
+**Backend:** Node.js / Express  
+**AI/ML:** Python, Scikit-learn  
+**Database:** MongoDB / PostgreSQL  
+**APIs:** Weather, Traffic (Mock)  
+**Payments:** Razorpay / Stripe  
+
+---
+
+## 📅 DEVELOPMENT ROADMAP
+
+### 🟢 Phase 1: Ideation
+- Persona & problem analysis  
+- Workflow design  
+- AI planning  
+
+### 🟡 Phase 2: Build
+- Policy system  
+- Dynamic pricing  
+- Claims automation  
+
+### 🔴 Phase 3: Scale
+- Fraud detection  
+- Instant payouts  
+- Dashboard  
+
+---
+
+## 🏆 WHY THIS PROJECT STANDS OUT
+
+✔ Real-world impact  
+✔ AI-driven automation  
+✔ Zero-touch claims  
+✔ Fraud-proof system  
+✔ Scalable across India  
+
+🔥 Built like a product, not just a project  
+
+---
+
+## 👥 TEAM
+
+- Vansh Yadav
+- Om Prakash Samal 
+- Nilanshu Sharma
+- Vaibhavi Sharma
+- Akhilesh Menon
+
+---
+
+## 💬 FINAL NOTE
+
+> “Earn without fear. We've got your back.”
